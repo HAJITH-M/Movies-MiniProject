@@ -1,0 +1,72 @@
+{
+  "movies": [
+    {
+      "Title": "Batman Begins",
+      "Year": "2005",
+      "imdbID": "tt0372784",
+      "Type": "movie",
+      "Poster": "https://ik.imagekit.io/k5gvskw6y/Holiday-Home/Card-Images/h11-tour-carousel-img-1-768x1120.jpg?updatedAt=1723375546928",
+      "Details": {
+        "Director": "Christopher Nolan",
+        "Genre": ["Action", "Adventure", "Drama"],
+        "Synopsis": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption. He confronts his fears and learns what it means to be a hero.",
+        "Runtime": "140 minutes",
+        "Rating": "8.2/10",
+        "Main Cast": ["Christian Bale", "Michael Caine", "Liam Neeson", "Katie Holmes"],
+        "Box Office": "$373 million",
+        "Awards": ["Saturn Award for Best Action/Adventure Film"]
+      }
+    },
+    {
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "imdbID": "tt0468569",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMDU2Mw@@._V1_SX300.jpg",
+      "Details": {
+        "Director": "Christopher Nolan",
+        "Genre": ["Action", "Crime", "Drama"],
+        "Synopsis": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, forcing Batman to accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "Runtime": "152 minutes",
+        "Rating": "9.0/10",
+        "Main Cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Michael Caine"],
+        "Box Office": "$1.005 billion",
+        "Awards": ["Academy Award for Best Supporting Actor (Heath Ledger)"]
+      }
+    },
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzA0YzM0MTAtY2RmNS00M2E3LTg0ZjEtMDQ2ODMwZDZkNTM2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Details": {
+        "Director": "Zack Snyder",
+        "Genre": ["Action", "Adventure", "Fantasy"],
+        "Synopsis": "Fearing the actions of Superman, Gotham City’s own formidable vigilante, Batman, takes on Metropolis’s most revered, modern-day savior while the world wrestles with what sort of hero it really needs. Their conflict ignites a battle for the ages.",
+        "Runtime": "151 minutes",
+        "Rating": "6.4/10",
+        "Main Cast": ["Ben Affleck", "Henry Cavill", "Amy Adams", "Jesse Eisenberg"],
+        "Box Office": "$873 million",
+        "Awards": ["Teen Choice Award for Choice Movie Actor: Action"]
+      }
+    },
+    {
+      "Title": "The Batman",
+      "Year": "2022",
+      "imdbID": "tt1877830",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTc4YjJlNTctNTQxZi00MDliLWI5MWQtODc4YWI5MTNhYzZiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_SX300.jpg",
+      "Details": {
+        "Director": "Matt Reeves",
+        "Genre": ["Action", "Crime", "Drama"],
+        "Synopsis": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing the serial killer known as the Riddler. The film explores Batman's detective skills and his psychological struggles.",
+        "Runtime": "155 minutes",
+        "Rating": "7.9/10",
+        "Main Cast": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano", "Jeffrey Wright"],
+        "Box Office": "$770 million",
+        "Awards": ["Critics' Choice Super Awards for Best Superhero Movie"]
+      }
+    }
+  ]
+}
