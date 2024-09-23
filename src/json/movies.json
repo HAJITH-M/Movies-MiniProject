@@ -5,7 +5,8 @@
       "Year": "2005",
       "imdbID": "tt0372784",
       "Type": "movie",
-      "Poster": "https://ik.imagekit.io/k5gvskw6y/Holiday-Home/Card-Images/h11-tour-carousel-img-1-768x1120.jpg?updatedAt=1723375546928",
+      "Language": "English",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
       "Details": {
         "Director": "Christopher Nolan",
         "Genre": ["Action", "Adventure", "Drama"],
@@ -22,7 +23,8 @@
       "Year": "2008",
       "imdbID": "tt0468569",
       "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMDU2Mw@@._V1_SX300.jpg",
+      "Language": "English",
+      "Poster": "https://originalvintagemovieposters.com/wp-content/uploads/2020/03/Dark-Knight-70822-scaled-1383x2048.jpg",
       "Details": {
         "Director": "Christopher Nolan",
         "Genre": ["Action", "Crime", "Drama"],
@@ -39,11 +41,12 @@
       "Year": "2016",
       "imdbID": "tt2975590",
       "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNzA0YzM0MTAtY2RmNS00M2E3LTg0ZjEtMDQ2ODMwZDZkNTM2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "Language": "English",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
       "Details": {
         "Director": "Zack Snyder",
         "Genre": ["Action", "Adventure", "Fantasy"],
-        "Synopsis": "Fearing the actions of Superman, Gotham City’s own formidable vigilante, Batman, takes on Metropolis’s most revered, modern-day savior while the world wrestles with what sort of hero it really needs. Their conflict ignites a battle for the ages.",
+        "Synopsis": "Fearing the actions of Superman, Gotham City's own formidable vigilante, Batman, takes on Metropolis's most revered, modern-day savior while the world wrestles with what sort of hero it really needs. Their conflict ignites a battle for the ages.",
         "Runtime": "151 minutes",
         "Rating": "6.4/10",
         "Main Cast": ["Ben Affleck", "Henry Cavill", "Amy Adams", "Jesse Eisenberg"],
@@ -56,7 +59,8 @@
       "Year": "2022",
       "imdbID": "tt1877830",
       "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTc4YjJlNTctNTQxZi00MDliLWI5MWQtODc4YWI5MTNhYzZiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_SX300.jpg",
+      "Language": "English",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg",
       "Details": {
         "Director": "Matt Reeves",
         "Genre": ["Action", "Crime", "Drama"],
@@ -66,6 +70,114 @@
         "Main Cast": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano", "Jeffrey Wright"],
         "Box Office": "$770 million",
         "Awards": ["Critics' Choice Super Awards for Best Superhero Movie"]
+      }
+    },
+    {
+      "Title": "Paiyaa",
+      "Year": "2010",
+      "imdbID": "tt1634135",
+      "Type": "movie",
+      "Language": "Tamil",
+      "Poster": "https://www.themoviedb.org/t/p/original/rrG8yFhXTw9N5UaqsBYh3Ir9bOJ.jpg",
+      "Details": {
+        "Director": "N. Linguswamy",
+        "Genre": ["Action", "Romance", "Drama"],
+        "Synopsis": "A jobless youth agrees to drive a girl to Mumbai without knowing who she is or why she is going there.",
+        "Runtime": "145 minutes",
+        "Rating": "7.3/10",
+        "Main Cast": ["Karthi", "Tamannaah", "Milind Soman", "Jagan"],
+        "Box Office": "₹65 crore",
+        "Awards": ["Vijay Award for Best Film"]
+      }
+    },
+    {
+      "Title": "Ratsasan",
+      "Year": "2018",
+      "imdbID": "tt7060344",
+      "Type": "movie",
+      "Language": "Tamil",
+      "Poster": "https://static.moviecrow.com/marquee/raatchasan---first-look-released/117170_thumb_665.jpg",
+      "Details": {
+        "Director": "Ram Kumar",
+        "Genre": ["Crime", "Thriller", "Mystery"],
+        "Synopsis": "A serial killer is on the loose, and a rookie cop has to track him down before the killer strikes again.",
+        "Runtime": "170 minutes",
+        "Rating": "8.4/10",
+        "Main Cast": ["Vishnu Vishal", "Amala Paul", "Saravanan", "Kaali Venkat"],
+        "Box Office": "₹30 crore",
+        "Awards": ["Filmfare Award for Best Film - Tamil"]
+      }
+    },
+    {
+      "Title": "Vikram",
+      "Year": "2022",
+      "imdbID": "tt9179430",
+      "Type": "movie",
+      "Language": "Tamil",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmJhYTYxMGEtNjQ5NS00MWZiLWEwN2ItYjJmMWE2YTU1YWYxXkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_.jpg",
+      "Details": {
+        "Director": "Lokesh Kanagaraj",
+        "Genre": ["Action", "Thriller"],
+        "Synopsis": "A special agent investigates a murder committed by a masked group of serial killers.",
+        "Runtime": "173 minutes",
+        "Rating": "8.3/10",
+        "Main Cast": ["Kamal Haasan", "Vijay Sethupathi", "Fahadh Faasil", "Suriya"],
+        "Box Office": "₹442 crore",
+        "Awards": ["Filmfare Award for Best Tamil Film"]
+      }
+    },
+    {
+      "Title": "The Shawshank Redemption",
+      "Year": "1994",
+      "imdbID": "tt0111161",
+      "Type": "movie",
+      "Language": "English",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "Details": {
+        "Director": "Frank Darabont",
+        "Genre": ["Drama"],
+        "Synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "Runtime": "142 minutes",
+        "Rating": "9.3/10",
+        "Main Cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"],
+        "Box Office": "$58.3 million",
+        "Awards": ["Seven Academy Award nominations"]
+      }
+    },
+    {
+      "Title": "Jai Bhim",
+      "Year": "2021",
+      "imdbID": "tt15097216",
+      "Type": "movie",
+      "Language": "Tamil",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_SX300.jpg",
+      "Details": {
+        "Director": "T. J. Gnanavel",
+        "Genre": ["Crime", "Drama"],
+        "Synopsis": "When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.",
+        "Runtime": "164 minutes",
+        "Rating": "8.8/10",
+        "Main Cast": ["Suriya", "Lijomol Jose", "Manikandan", "Rajisha Vijayan"],
+        "Box Office": "₹200 crore",
+        "Awards": ["Dadasaheb Phalke International Film Festival Award for Best Film"]
+      }
+    },
+    {
+      "Title": "Inception",
+      "Year": "2010",
+      "imdbID": "tt1375666",
+      "Type": "movie",
+      "Language": "English",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "Details": {
+        "Director": "Christopher Nolan",
+        "Genre": ["Action", "Adventure", "Sci-Fi"],
+        "Synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "Runtime": "148 minutes",
+        "Rating": "8.8/10",
+        "Main Cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page", "Tom Hardy"],
+        "Box Office": "$836 million",
+        "Awards": ["Academy Award for Best Cinematography, Best Visual Effects, Best Sound Mixing, Best Sound Editing"]
       }
     }
   ]
