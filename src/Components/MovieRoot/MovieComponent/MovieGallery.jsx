@@ -1,8 +1,9 @@
 // src/components/MovieGallery.js
 import React, { useState, useEffect } from 'react';
 
-import { Link, useNavigate } from 'react-router-dom';
-import moviesData from '../../json/movies.json';
+
+import { useNavigate } from 'react-router-dom';
+import moviesData from '../../../json/movies.json';
 
 import { FaSearch, FaCalendarAlt, FaFilm, FaSadTear, FaLanguage, FaSpinner } from 'react-icons/fa';
 
@@ -10,16 +11,37 @@ const MovieGallery = () => {
   const [movies, setMovies] = useState([]);
   const [filter, setFilter] = useState('');
   const [loading, setLoading] = useState(false);
+
+  const [selectedCategory, setSelectedCategory] = useState('All');
+
+  const [categories, setCategories] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
-    setMovies(moviesData.movies);
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      setMovies(moviesData.movies);
+    const uniqueCategories = ['All', ...new Set(moviesData.movies.flatMap(movie => movie.Details.Genre))];
+    setCategories(uniqueCategories);
+
+    }, 1000);
+    
+
   }, []);
 
+
+
+
+
+
+
   const filteredMovies = movies.filter(movie =>
-    movie.Title.toLowerCase().includes(filter.toLowerCase()) ||
+    (selectedCategory === 'All' || movie.Details.Genre.includes(selectedCategory)) &&
+    (movie.Title.toLowerCase().includes(filter.toLowerCase()) ||
     movie.Year.includes(filter) ||
-    movie.Type.toLowerCase().includes(filter.toLowerCase())
+    movie.Type.toLowerCase().includes(filter.toLowerCase()) ||
+    (selectedCategory === 'All' && movie.Details.Genre.some(genre => genre.toLowerCase().includes(filter.toLowerCase()))))
   );
 
   const handleMovieClick = (movie) => {
@@ -28,7 +50,8 @@ const MovieGallery = () => {
       setLoading(false);
       navigate('/movie-details', { state: { movie } });
       window.scrollTo(0, 0);
-    }, 1000); // Simulating a 1-second loading time
+
+    }, 1000);
   };
 
   return (
@@ -42,7 +65,7 @@ const MovieGallery = () => {
         <div className="relative max-w-md mx-auto pt-5">
           <input
             type="text"
-            placeholder="Filter movies..."
+            placeholder="Filter movies from all..."
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
             className="w-full p-3 pl-12 bg-gray-800 border border-gray-700 rounded-full text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300 ease-in-out"
@@ -51,14 +74,39 @@ const MovieGallery = () => {
         </div>
       </div>
 
-      <div className="flex-grow container mx-auto px-4 py-3 ">
 
+
+      <div className="flex justify-center space-x-4 mb-8">
+        {categories.map(category => (
+          <button
+            key={category}
+            onClick={() => setSelectedCategory(category)}
+            className={`px-4 py-2 rounded-full ${
+              selectedCategory === category
+                ? 'bg-blue-500 text-white'
+                : 'bg-gray-200 text-gray-800'
+            }`}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+
+
+
+
+
+      <div className="flex-grow container mx-auto px-4 py-3">
         {loading ? (
           <div className="flex justify-center items-center h-64">
             <FaSpinner className="animate-spin text-4xl text-blue-500" />
           </div>
+
+
         ) : filteredMovies.length > 0 ? (
           <div className="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-3 gap-y-8">
+
+
             {filteredMovies.map((movie) => (
               <div key={movie.imdbID} className="flex flex-col items-center">
 

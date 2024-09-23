@@ -1,5 +1,5 @@
   import React from 'react';
-  import { FaHome, FaVideo, FaStar, FaBars } from 'react-icons/fa';
+  import { FaHome, FaVideo, FaStar, FaBars, FaList } from 'react-icons/fa';
   import { Link, useLocation } from 'react-router-dom';
 
   const Navbar = () => {
@@ -17,7 +17,8 @@
     const navItems = [
       { path: '/', icon: FaHome, text: 'Home' },
       { path: '/movies', icon: FaVideo, text: 'Movies' },
-      { path: '/ratings', icon: FaStar, text: 'Ratings' }
+      { path: '/songs', icon: FaStar, text: 'Songs' },
+      { path: '/categories', icon: FaList, text: 'Categories' }
     ];
 
     return (

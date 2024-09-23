@@ -1,0 +1,319 @@
+{
+    "songs": [
+        {
+            "Title": "Vaathi",
+            "Year": "2023",
+            "spotifyID": "1mCNsWBZhFXerxfLXkxX1Y",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273c08202c50371e234d20caf62",
+            "Details": {
+                "Artist": "G.V. Prakash Kumar",
+                "Genre": ["Film Song", "Pop"],
+                "Description": "A romantic song from the Tamil film 'Vaathi', featuring Dhanush and Samyuktha Menon.",
+                "Duration": "3:39",
+                "Rating": "8.8/10",
+                "Band Members": ["G.V. Prakash Kumar", "Shweta Mohan"],
+                "Chart Performance": "Number 1 on Spotify India Top 200",
+                "Awards": ["Nominated for Filmfare Award for Best Male Playback Singer – Tamil"]
+            },
+            "Playlist": {
+                "Name": "Vaathi Playlist",
+                "Songs": [
+                    {
+                        "Title": "Vaathi",
+                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y"
+                    },
+                    {
+                        "Title": "Nenjame",
+                        "Link": "https://open.spotify.com/track/4nJW1wWXLHUWmVXt0JCZyj"
+                    },
+                    {
+                        "Title": "Kaavaalaa",
+                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y2"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Thiruchitrambalam",
+            "Year": "2022",
+            "spotifyID": "4nJW1wWXLHUWmVXt0JCZyj",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273cf72c6b9f1ec90f31d5a7c0a",
+            "Details": {
+                "Artist": "Yuvan Shankar Raja",
+                "Genre": ["Film Song", "Melody"],
+                "Description": "A soulful melody from the Tamil film 'Thiruchitrambalam', sung by Dhanush and Anirudh Ravichander.",
+                "Duration": "4:22",
+                "Rating": "9.0/10",
+                "Band Members": ["Yuvan Shankar Raja", "Dhanush", "Anirudh Ravichander"],
+                "Chart Performance": "Top 10 on Apple Music India",
+                "Awards": ["Nominated for SIIMA Award for Best Male Playback Singer"]
+            },
+            "Playlist": {
+                "Name": "Thiruchitrambalam Playlist",
+                "Songs": [
+                    {
+                        "Title": "Nenjame",
+                        "Link": "https://open.spotify.com/track/4nJW1wWXLHUWmVXt0JCZyj"
+                    },
+                    {
+                        "Title": "Vaathi",
+                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y"
+                    },
+                    {
+                        "Title": "Kannaana Kanney",
+                        "Link": "https://open.spotify.com/track/2dKOn7z6h6MGK8q6ANuQAB"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Jailer",
+            "Year": "2023",
+            "spotifyID": "1mCNsWBZhFXerxfLXkxX1Y2",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273e8d2a5c2f4a0f1e0c0fd5b0e",
+            "Details": {
+                "Artist": "Anirudh Ravichander",
+                "Genre": ["Film Song", "Dance"],
+                "Description": "An upbeat dance number from the Tamil film 'Jailer', featuring Rajinikanth and Tamannaah Bhatia.",
+                "Duration": "3:20",
+                "Rating": "8.9/10",
+                "Band Members": ["Anirudh Ravichander", "Shilpa Rao", "Arunraja Kamaraj"],
+                "Chart Performance": "Number 1 on YouTube Music India Top Songs",
+                "Awards": ["Trending song on social media platforms"]
+            },
+            "Playlist": {
+                "Name": "Jailer Playlist",
+                "Songs": [
+                    {
+                        "Title": "Kaavaalaa",
+                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y2"
+                    },
+                    {
+                        "Title": "Aaluma Doluma",
+                        "Link": "https://open.spotify.com/track/0xEzzXDJfNB16xHVtZoScK"
+                    },
+                    {
+                        "Title": "Sodakku",
+                        "Link": "https://open.spotify.com/track/4NfEtrbFrxv1Zs4rw8rWz8"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Vishwasam",
+            "Year": "2019",
+            "spotifyID": "2dKOn7z6h6MGK8q6ANuQAB",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273b71a79e88d96bb84b8aade75",
+            "Details": {
+                "Artist": "Sid Sriram",
+                "Genre": ["Film Song", "Romantic"],
+                "Description": "A beautiful romantic track from the film 'Vishwasam', showcasing the love between the lead characters.",
+                "Duration": "4:20",
+                "Rating": "9.2/10",
+                "Band Members": ["Sid Sriram", "Thaman S."],
+                "Chart Performance": "Top 5 on Spotify India Top 200",
+                "Awards": ["Nominated for Filmfare Award for Best Male Playback Singer – Tamil"]
+            },
+            "Playlist": {
+                "Name": "Vishwasam Playlist",
+                "Songs": [
+                    {
+                        "Title": "Kannaana Kanney",
+                        "Link": "https://open.spotify.com/track/2dKOn7z6h6MGK8q6ANuQAB"
+                    },
+                    {
+                        "Title": "Nenjame",
+                        "Link": "https://open.spotify.com/track/4nJW1wWXLHUWmVXt0JCZyj"
+                    },
+                    {
+                        "Title": "Unakaga Oru Bhuvi",
+                        "Link": "https://open.spotify.com/track/5iK1tBoBxBQ4cuhxS6QAf1"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Maanagaram",
+            "Year": "2021",
+            "spotifyID": "1Z5EFmg5nLRpYhPLl5DoFh",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273a77a4dbb0e89016e6c7f3f98",
+            "Details": {
+                "Artist": "Pradeep Kumar",
+                "Genre": ["Film Song", "Indie"],
+                "Description": "An indie-style song that reflects the struggles and dreams of city life, featured in the film 'Maanagaram'.",
+                "Duration": "3:45",
+                "Rating": "8.5/10",
+                "Band Members": ["Pradeep Kumar", "Anirudh Ravichander"],
+                "Chart Performance": "Top 10 on Apple Music India",
+                "Awards": ["Best Indie Song at the Tamil Music Awards"]
+            },
+            "Playlist": {
+                "Name": "Maanagaram Playlist",
+                "Songs": [
+                    {
+                        "Title": "Maanagaram",
+                        "Link": "https://open.spotify.com/track/1Z5EFmg5nLRpYhPLl5DoFh"
+                    },
+                    {
+                        "Title": "Duniya",
+                        "Link": "https://open.spotify.com/track/4JtXYN6c53E5c6Mqe8T0m0"
+                    },
+                    {
+                        "Title": "Sodakku",
+                        "Link": "https://open.spotify.com/track/4NfEtrbFrxv1Zs4rw8rWz8"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Marakkar",
+            "Year": "2023",
+            "spotifyID": "4JtXYN6c53E5c6Mqe8T0m0",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b2730c5e7c8c1c0c0483bdfdfb58",
+            "Details": {
+                "Artist": "S. P. Balasubrahmanyam",
+                "Genre": ["Film Song", "Classic"],
+                "Description": "A touching song that pays homage to life and relationships, featuring powerful vocals by the legendary SPB.",
+                "Duration": "5:00",
+                "Rating": "9.5/10",
+                "Band Members": ["S. P. Balasubrahmanyam", "Harris Jayaraj"],
+                "Chart Performance": "Number 1 on Gaana Top Songs",
+                "Awards": ["Lifetime Achievement Award"]
+            },
+            "Playlist": {
+                "Name": "Marakkar Playlist",
+                "Songs": [
+                    {
+                        "Title": "Duniya",
+                        "Link": "https://open.spotify.com/track/4JtXYN6c53E5c6Mqe8T0m0"
+                    },
+                    {
+                        "Title": "Maanagaram",
+                        "Link": "https://open.spotify.com/track/1Z5EFmg5nLRpYhPLl5DoFh"
+                    },
+                    {
+                        "Title": "Unakaga Oru Bhuvi",
+                        "Link": "https://open.spotify.com/track/5iK1tBoBxBQ4cuhxS6QAf1"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Vedalam",
+            "Year": "2017",
+            "spotifyID": "0xEzzXDJfNB16xHVtZoScK",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273ff5e7c7a0d4e0c74f33eb9b6",
+            "Details": {
+                "Artist": "Anirudh Ravichander",
+                "Genre": ["Film Song", "Dance"],
+                "Description": "A high-energy dance number from the film 'Vedalam', featuring Ajith Kumar.",
+                "Duration": "3:30",
+                "Rating": "8.7/10",
+                "Band Members": ["Anirudh Ravichander", "Vivek"],
+                "Chart Performance": "Top 3 on YouTube Music India",
+                "Awards": ["Best Dance Song at the Tamil Music Awards"]
+            },
+            "Playlist": {
+                "Name": "Vedalam Playlist",
+                "Songs": [
+                    {
+                        "Title": "Aaluma Doluma",
+                        "Link": "https://open.spotify.com/track/0xEzzXDJfNB16xHVtZoScK"
+                    },
+                    {
+                        "Title": "Kaavaalaa",
+                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y2"
+                    },
+                    {
+                        "Title": "Sodakku",
+                        "Link": "https://open.spotify.com/track/4NfEtrbFrxv1Zs4rw8rWz8"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Marakkar",
+            "Year": "2022",
+            "spotifyID": "5iK1tBoBxBQ4cuhxS6QAf1",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b2739b9ecb66e1f21a4d0887b6b7",
+            "Details": {
+                "Artist": "Karthik",
+                "Genre": ["Film Song", "Melody"],
+                "Description": "A melodious track from the film 'Marakkar', featuring heartfelt lyrics and soothing music.",
+                "Duration": "4:10",
+                "Rating": "9.1/10",
+                "Band Members": ["Karthik", "Vidyasagar"],
+                "Chart Performance": "Top 10 on Spotify India",
+                "Awards": ["Nominated for SIIMA Award for Best Male Playback Singer"]
+            },
+            "Playlist": {
+                "Name": "Marakkar Playlist",
+                "Songs": [
+                    {
+                        "Title": "Unakaga Oru Bhuvi",
+                        "Link": "https://open.spotify.com/track/5iK1tBoBxBQ4cuhxS6QAf1"
+                    },
+                    {
+                        "Title": "Kannaana Kanney",
+                        "Link": "https://open.spotify.com/track/2dKOn7z6h6MGK8q6ANuQAB"
+                    },
+                    {
+                        "Title": "Duniya",
+                        "Link": "https://open.spotify.com/track/4JtXYN6c53E5c6Mqe8T0m0"
+                    }
+                ]
+            }
+        },
+        {
+            "Title": "Vivegam",
+            "Year": "2019",
+            "spotifyID": "4NfEtrbFrxv1Zs4rw8rWz8",
+            "Type": "song",
+            "Language": "Tamil",
+            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273b27eafad0bc51f70a2df6af6",
+            "Details": {
+                "Artist": "Vivek-Mervin",
+                "Genre": ["Film Song", "Folk"],
+                "Description": "A folk-inspired track from the film 'Vivegam', known for its catchy beats.",
+                "Duration": "3:15",
+                "Rating": "8.6/10",
+                "Band Members": ["Vivek-Mervin"],
+                "Chart Performance": "Top 5 on Spotify India",
+                "Awards": []
+            },
+            "Playlist": {
+                "Name": "Vivegam Playlist",
+                "Songs": [
+                    {
+                        "Title": "Vivegam",
+                        "Link": "https://open.spotify.com/track/4NfEtrbFrxv1Zs4rw8rWz8"
+                    },
+                    {
+                        "Title": "Aaluma Doluma",
+                        "Link": "https://open.spotify.com/track/0xEzzXDJfNB16xHVtZoScK"
+                    },
+                    {
+                        "Title": "Kaavaalaa",
+                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y2"
+                    }
+                ]
+            }
+        }
+    ]
+}
