@@ -1,12 +1,12 @@
 {
     "songs": [
         {
-            "Title": "Vaathi",
-            "Year": "2023",
+            "Title": "Paiyaa",
+            "Year": "2010",
             "spotifyID": "1mCNsWBZhFXerxfLXkxX1Y",
             "Type": "song",
             "Language": "Tamil",
-            "CoverArt": "https://i.scdn.co/image/ab67616d0000b273c08202c50371e234d20caf62",
+            "CoverArt": "https://www.themoviedb.org/t/p/original/rrG8yFhXTw9N5UaqsBYh3Ir9bOJ.jpg",
             "Details": {
                 "Artist": "G.V. Prakash Kumar",
                 "Genre": ["Film Song", "Pop"],
@@ -18,20 +18,13 @@
                 "Awards": ["Nominated for Filmfare Award for Best Male Playback Singer – Tamil"]
             },
             "Playlist": {
-                "Name": "Vaathi Playlist",
+                "Name": "Paiyaa Playlist",
                 "Songs": [
                     {
-                        "Title": "Vaathi",
-                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y"
-                    },
-                    {
-                        "Title": "Nenjame",
-                        "Link": "https://open.spotify.com/track/4nJW1wWXLHUWmVXt0JCZyj"
-                    },
-                    {
-                        "Title": "Kaavaalaa",
-                        "Link": "https://open.spotify.com/track/1mCNsWBZhFXerxfLXkxX1Y2"
+                        "Title": "Adada Mazhaida",
+                        "Link": "https://ik.imagekit.io/k5gvskw6y/Movie/Adada-Mazhaida.mp3"
                     }
+                   
                 ]
             }
         },

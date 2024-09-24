@@ -44,20 +44,22 @@ const Movies = () => {
         </div>
       </div>
       
-      <div className="flex justify-center space-x-4 mb-8">
-        {categories.map(category => (
-          <button
-            key={category}
-            onClick={() => setSelectedCategory(category)}
-            className={`px-4 py-2 rounded-full ${
-              selectedCategory === category
-                ? 'bg-blue-500 text-white'
-                : 'bg-gray-200 text-gray-800'
-            }`}
-          >
-            {category}
-          </button>
-        ))}
+      <div className="your-element-class flex justify-center space-x-4 mb-8 overflow-x-auto">
+        <div className="flex space-x-4 px-4">
+          {categories.map(category => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`px-4 py-2 rounded-full flex-shrink-0 ${
+                selectedCategory === category
+                  ? 'bg-blue-500 text-white'
+                  : 'bg-gray-200 text-gray-800'
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
       </div>
       
       <div className="flex-grow container mx-auto px-4 py-3">

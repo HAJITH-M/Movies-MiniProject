@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.your-element-class::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}

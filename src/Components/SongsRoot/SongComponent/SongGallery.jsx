@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import songsData from '../../../json/songs.json';
-import { FaMusic, FaCalendarAlt, FaLanguage } from 'react-icons/fa';
+import { FaMusic, FaCalendarAlt, FaLanguage, FaSpinner } from 'react-icons/fa';
 import { MdAudiotrack } from 'react-icons/md';
 
 const SongGallery = () => {
@@ -18,7 +18,13 @@ const SongGallery = () => {
     }, []);
 
     if (songsLoaded) {
-        return <div className="flex justify-center bg-gray-900 items-center h-screen text-white">Loading...</div>;
+        return (
+            <>
+            <div className="flex justify-center items-center h-64">
+            <FaSpinner className="animate-spin text-4xl text-blue-500" />
+          </div>
+            </>
+        )
     }
 
 
@@ -28,12 +34,17 @@ const SongGallery = () => {
 
 
     return (
-        <div  className="bg-gray-900 min-h-screen p-8">
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div  className="bg-gray-900 min-h-screen px-3 pt-8 md:p-8">
+
+                    <h1 className="text-4xl font-bold text-white mb-6 flex items-center">
+                        <FaMusic className="mr-2 text-blue-500" />
+                        Songs
+                    </h1>
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
                 {songs.map((song) => (
                     <div onClick={() => handleSongClick(song)} key={song.spotifyID} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out"  >
                         <div className="w-full h-56 overflow-hidden">
-                            <img className="w-full h-full object-contain" src={song.CoverArt} alt={song.Title} />
+                            <img className="w-full h-full object-cover" src={song.CoverArt} alt={song.Title} />
                         </div>
                         <div className="p-4">
                             <h3 className="text-xl font-semibold text-white mb-2">{song.Title}</h3>
